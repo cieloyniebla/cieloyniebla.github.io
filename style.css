@@ -230,7 +230,8 @@ body {
   "one"
   "two"
   "second_title"
-  "three";
+  "three"
+  "four";
 }
 .pr_first_title{
   grid-area: first_title;
@@ -246,6 +247,10 @@ body {
 }
 .pr_atara{
   grid-area: three;
+}
+
+.pr_personal{
+  grid-area: four;
 }
 
 .proyects_container {
@@ -303,6 +308,10 @@ body {
 }
 .pr_data_ctn > a:hover{
   color: var(--hover-font);
+}
+
+.pr_data_ctn > a:visited {
+  color:var(--black-font);
 }
 
 
@@ -422,7 +431,7 @@ body {
     margin-top: -1px;
     margin-left: -1px;
     border-right: 1px;
-    border-bottom: 1px;
+    border-bottom: -1px;
   }
 }
 
@@ -525,4 +534,15 @@ body {
   margin-left: -1px;
   margin-right: -1px;
   margin-bottom: -1px;
+}
+
+.footer_links_ctn > a:link {
+  color:var(--black-font);
+}
+.footer_links_ctn > a:hover {
+  color: var(--hover-font);
+}
+
+.footer_links_ctn > a:visited {
+  color:var(--black-font);
 }
